@@ -1,0 +1,27 @@
+.watchMain{
+    width:auto;
+    height:500px;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.watchTv{
+    color:white;
+    display:flex;
+    width:auto;
+    height:500px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:300px;
+}
+
+.watchTv h1{
+    font-size: 50px;
+    font-weight:900;
+}
+
+.watchTv h3{
+    margin-top:-10px;
+    font-size: 20px;
+    font-weight:700;
+}

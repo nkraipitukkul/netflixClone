@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.mainArea{
+    margin-top:10px;
+    width:auto;
+    height:500px;
+    background-color: black;
+}
+
+.showArea{
+    width:100%;
+    height:500px;
+    display:flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.showArea h1{
+    font-size: 50px;
+    font-weight:900;
+}
+
+.showArea h3{
+    font-size: 20px;
+    font-weight:700;
+}
+

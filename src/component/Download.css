@@ -1,0 +1,92 @@
+.downloadMain{
+    width:auto;
+    height:500px;
+    background-color: black;
+    margin-top:10px;
+}
+
+.downloadShow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:auto;
+    height:500px;
+}
+
+.downloadImg{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg');
+    background-size: cover;
+    width:500px;
+    height:400px;
+}
+
+.miniBox{
+    width:480px;
+    height:380px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color:white;
+}
+
+.subMiniBox{
+    display: flex;
+    margin-left:50px;
+    width:300px;
+    height:100px;
+    border:2px solid rgb(50, 48, 48);
+    background-color: black;
+    border-radius:10px;
+}
+
+.subMiniBox img{
+    margin-left:10px;
+    margin-top:8px;
+    width:60px;
+    height:70px;
+}
+
+.miniBoxText{
+    display:flex;
+    width:200px;
+    height:300px;
+    margin-left:14px;
+}
+
+.miniBoxText h2{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.miniBoxText p{
+    color:rgb(106, 106, 225);
+    margin-top: -5px;
+    font-size: 13px;
+}
+
+.downloadTv{
+    color:white;
+}
+
+.downloadTv h1{
+    font-size: 50px;
+    font-weight:900;
+}
+
+.downloadTv h3{
+    font-size: 20px;
+    font-weight:700;
+}
+
+.reactIcon{
+    margin-top:35px;
+}
+
+.reactIcon button{
+    margin-left:20px;
+    font-size:20px;
+    background-color: transparent;
+    color:white;
+    border:none
+}
+

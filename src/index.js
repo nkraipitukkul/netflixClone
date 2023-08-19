@@ -2,13 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Banner from './component/Banner';
+import Enjoy from './component/Enjoy';
+import Download from './component/Download';
+import Watch from './component/Watch';
+import Kid from './component/Kid';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+  <div className="cover">
+      <Banner/>
+      <Enjoy/>
+      <Download/>
+      <Watch/>
+      <Kid/>
+    </div>
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
