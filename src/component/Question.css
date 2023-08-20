@@ -1,0 +1,227 @@
+.questionMain{
+    margin-top:10px;
+    color:white;
+    background-color: black;
+    width:auto;
+    height:1000px;
+}
+
+.frequencyAsk{
+    width:auto;
+    height:200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.questionBox{
+    background-color: black;
+    margin-top:-50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:800px;
+}
+.q1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom:8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.q1 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color:white;
+    font-size: 80px;
+}
+
+.q2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom:8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.q2 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q3{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.q3 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q4{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.q4 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q5{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.q5 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q6{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: grey;
+    width:800px;
+    height:100px;
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.q6 button{
+    background-color: transparent;
+    border:none;
+    width:80px;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readyArea{
+    margin-top:20px;
+    width: 600px;
+    height:150px;
+}
+
+.readyArea p{
+    color:white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.emailButton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:600px;
+    height:95px;
+    gap:5px;
+}
+
+.emailButton input{
+    margin-left:-20px;
+    width:420px;
+    height:50px;
+    background-color: rgb(42, 41, 41);
+    border:0.5px solid white;
+    border-radius: 5px;;
+    cursor: pointer;
+    transition: 0.1s;
+    outline: none;
+}
+
+.emailButton input:hover{
+    border:2px solid white;
+}
+
+.emailButton button{
+    border:none;
+    border-radius: 5px;
+    width:160px;
+    height:50px;
+    font-size:20px;
+    font-weight: bold;
+    background-color: red;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+.emailButton button:hover{
+    background-color: brown;
+}
+
+.elementUp{
+    margin-top:-15px;
+}
